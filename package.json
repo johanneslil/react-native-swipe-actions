@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:johanneslil/react-native-swipe-detect.git"
+    "url": "git://github.com/johanneslil/react-native-swipe-detect.git"
   },
   "keywords": [
     "react-native",
