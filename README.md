@@ -1,6 +1,7 @@
 # react-native-swipe-actions
 
 React Native component for handling swipe gestures in up, down, left and right direction.
+(forked from https://github.com/glepur/react-native-swipe-gestures, primarily to fix vertical scrolling on iOS)
 
 ## Installation
 
