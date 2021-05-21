@@ -96,7 +96,7 @@ Can be passed within optional `config` property.
 | Params                     |  Type   | Default | Description                                                                                                                        |
 | -------------------------- | :-----: | ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | velocityThreshold          | Number  | 0.3     | Velocity that has to be breached in order for swipe to be triggered (`vx` and `vy` properties of `gestureState`)                   |
-| directionalOffsetThreshold | Number  | 80      | Absolute offset that shouldn't be breached for swipe to be triggered (`dy` for horizontal swipe, `dx` for vertical swipe)          |
+| directionalOffsetThreshold | Number  | 70      | Absolute offset that shouldn't be breached for swipe to be triggered (`dy` for horizontal swipe, `dx` for vertical swipe)          |
 | gestureIsClickThreshold    | Number  | 5       | Absolute distance that should be breached for the gesture to not be considered a click (`dx` or `dy` properties of `gestureState`) |
 | enableSwipeUp              | Boolean | true    | Determines whether upward swipes should be recognized                                                                              |
 | enableSwipeDown            | Boolean | true    | Determines whether downward swipes should be recognized                                                                            |
@@ -138,7 +138,7 @@ Can be passed within optional `config` property.
 
 ## Fix ScrollView and FlatList issues on iOS
 
-To prevent vertical scrolling hiccups on iOS, disable vertical swipe recognition with a config like this:
+To prevent any vertical scrolling hiccups on iOS, disable vertical swipe recognition with a config like this:
 
 ```javascript
 <GestureRecognizer
