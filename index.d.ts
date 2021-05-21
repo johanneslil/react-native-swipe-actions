@@ -1,4 +1,4 @@
-declare module 'react-native-swipe-gestures' {
+declare module 'react-native-swipe-detect' {
   import { Component } from 'react';
   import {
     PanResponderGestureState,
