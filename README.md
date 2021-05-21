@@ -5,7 +5,7 @@ React Native component for handling swipe gestures in up, down, left and right d
 
 ## Installation
 
-`npm i -S react-native-swipe-actions`
+`npm i -S react-native-swipe-detect`
 
 ## Usage
 
@@ -14,7 +14,7 @@ React Native component for handling swipe gestures in up, down, left and right d
 
 import React, { Component } from "react";
 import { View, Text } from "react-native";
-import GestureRecognizer, { swipeDirections } from "react-native-swipe-actions";
+import GestureRecognizer, { swipeDirections } from "react-native-swipe-detect";
 
 class SomeComponent extends Component {
   constructor(props) {
