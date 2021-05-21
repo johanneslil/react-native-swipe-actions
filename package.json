@@ -1,20 +1,20 @@
 {
-  "name": "react-native-swipe-actions",
+  "name": "react-native-swipe-detect",
   "types": "index.d.ts",
   "version": "1.0.6",
-  "description": "4-directional swipe-triggered actions for react-native. ",
+  "description": "4-directional swipe detection for react-native. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:johanneslil/react-native-swipe-actions.git"
+    "url": "git@github.com:johanneslil/react-native-swipe-detect.git"
   },
   "keywords": [
     "react-native",
     "swipe",
-    "action",
+    "detect",
     "gesture"
   ],
   "bugs": {
